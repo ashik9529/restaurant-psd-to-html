@@ -1,0 +1,432 @@
+/* default css here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.f-left{
+    float: left;
+}
+.f-right{
+    float: right;
+}
+.fix{
+    overflow: hidden;
+}
+.row{
+    margin: 0 -15px;
+}
+.col-2{
+	width: 16.66%;
+	float: left;
+	padding: 0 15px;
+}
+.col-3{
+	width: 25%;
+	float: left;
+	padding: 0 15px;
+}
+.col-4{
+	width: 33.33%;
+	float: left;
+	padding: 0 15px;
+}
+.col-5{
+	width: 41.66%;
+	float: left;
+	padding: 0 15px;
+}
+.col-6{
+	width: 50%;
+	float: left;
+	padding: 0 15px;
+}
+.col-7{
+	width: 58.33%;
+	float: left;
+	padding: 0 15px;
+}
+.col-8{
+    width: 66.66%;
+    float: left;
+    padding: 0 15px;
+}
+.col-9{
+	width: 66.66%;
+	float: left;
+	padding: 0 15px;
+}
+.col-10{
+	width: 83.33%;
+	float: left;
+	padding: 0 15px;
+}
+.col-11{
+	width: 91.66%;
+	float: left;
+	padding: 0 15px;
+}
+.col-12{
+	width: 100%;
+	float: left;
+	padding: 0 15px;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@400;700&family=Lato:wght@300;400;700;900&family=Open+Sans:wght@300;400;600;700;800&family=Yeseva+One&display=swap');
+    /* font-family: 'Gentium Book Basic', serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Yeseva One', cursive; */
+/* header area start */
+.trasparent-header{
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 50;
+}
+.main-menu nav ul{
+    list-style-type: none;
+    font-size: 0;
+}
+.main-menu nav ul li {
+	display: inline-block;
+}
+.main-menu nav ul li a {
+	font-weight: 700;
+	font-size: 21px;
+	font-family: 'Gentium Book Basic', serif;
+	color: #fff;
+	padding-top: 52px;
+	display: inline-block;
+	margin-left: 40px;
+    text-decoration: none;
+    position: relative;
+}
+.header-top .social-icon a {
+	font-size: 18px;
+	color: #cc9900;
+	padding-top: 55px;
+	display: inline-block;
+	margin: 0 12px;
+}
+.main-menu nav ul li a::before {
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background: #C7C4BB;
+    content: "";
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: .7s;
+    -webkit-transition: .7s;
+    -moz-transition: .7s;
+    -ms-transition: .7s;
+    -o-transition: .7s;
+}
+.main-menu nav ul li a:hover::before{
+    opacity: 1;
+    visibility: visible;
+}
+/* header area end */
+/* slider area start */
+.slider-area {
+	min-height: 730px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-right: 55px;
+	background-position: center;
+}
+.single-slider{
+    padding-top: 200px;
+}
+.single-slider h1{
+    font-size: 90px;
+    color: #fff;
+    font-family: 'Yeseva One', cursive;
+}
+.single-slider img{
+    margin-top: 25px;
+}
+.slider-bnt{
+    margin-top: 30px;
+}
+.single-slider a {
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    padding: 18px 55px;
+    border: 1px solid #fff;
+    text-decoration: none;
+    margin-left: 45px;
+    display: inline-block;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.single-slider a:hover{
+    background: #000;
+    border: 1px solid #000;
+    opacity: .5;
+}
+/* slider area end */
+/* food area start */
+.food-area{
+    height: 700px;
+    background: url(../img/bg/food-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.food-text h2 {
+	font-size: 36px;
+	color: #cc9900;
+	font-family: 'Yeseva One', cursive;
+	margin: 14px;
+	padding-top: 35px;
+}
+.food-text p{
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    color: #4c4c4c;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+/* food area end */
+/* ingredients area start */
+.ingredients-area{
+    height: 760px;
+    background: url(../img/bg/ingredients.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.ingredients-wrapper {
+	padding-left: 600px;
+}
+.ingredients-text h3{
+    font-size: 36px;
+    color: #fff;
+    font-family: 'Yeseva One', cursive;
+    margin-bottom: 15px;
+}
+.ingredients-text p{
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.ingredients-bottom-img img {
+	margin: 0px 24px;
+}
+.ingredients-text {
+	background: #000;
+	padding: 50px;
+	opacity: .5;
+}
+/* ingredients area end */
+/* price area start */
+.price-area{
+    min-height: 715px;
+    background: url(../img/bg/price-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.price-title h2{
+    font-size: 36px;
+    color: #cc9900;
+    font-family: 'Yeseva One', cursive;
+    margin-bottom: 16px;
+}
+.price-content{
+    position: relative;
+}
+.price-content h3 {
+	font-size: 21px;
+	color: #cc9900;
+	font-family: 'Yeseva One', cursive;
+	padding-bottom: 12px;
+    margin: 20px auto;
+    position: relative;
+}
+.price-content h3::before {
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	background: #cc9900;
+	content: "";
+	top: 38px;
+	left: 0;
+	right: 0;
+}
+.price-content h3 span{
+    font-size: 21px;
+    color: #cc9900;
+    font-family: 'Yeseva One', cursive;
+    float: right;
+}
+.price-content p{
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    color: #4c4c4c;
+    margin-bottom: 30px;
+}
+.price-off {
+	border: 1px solid #cc9900;
+	padding: 0px 9px;
+	
+}
+.price-off::before {
+	width: 70px;
+	height: 20px;
+	background: #cc9900;
+	top: -24px;
+	right: -1px;
+	content: "Special";
+	position: absolute;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Lato', sans-serif;
+	padding: 0 10px;
+	padding-top: 3px;
+}
+/* price area end */
+/* review area start */
+.review-area{
+    height: 760px;
+    background: url(../img/bg/review.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.review-titile h1{
+    font-size: 36px;
+    color: #fff;
+    font-family: 'Yeseva One', cursive;
+}
+.review-titile img{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.icon img {
+	padding-right: 530px;
+}
+.review-info p{
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Gentium Book Basic', serif;
+    line-height: 40px;
+}
+.address p {
+	font-size: 18px;
+	color: #fff;
+}
+.review-info {
+	background: #000;
+	padding: 45px 0;
+	opacity: 0.7;
+}
+.review-wrapper {
+	padding: 0 275px;
+}
+/* review area end */
+/* right food area start */
+.right-food-area{
+    height: 710px;
+    background: url(../img/bg/food-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.right-food-text h1{
+    font-size: 36px;
+    color: #cc9900;
+    font-family: 'Yeseva One', cursive;
+    margin-bottom: 16px;
+}
+.right-food-text p{
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    color: #4c4c4c;
+    margin-top: 35px;
+    line-height: 24px;
+    margin-bottom: 50px;
+}
+.client-info input {
+    border: 1px solid #888;
+    width: 200px;
+    height: 35px;
+    padding: 0 15px;
+    margin: 0 10px;
+    color: #7c7c7c;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 35px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+.client-info input:hover{
+    border: 1px solid #cc9900;
+}
+
+.submit-btn a {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	background: #cc9900;
+    padding: 12px 65px;
+    text-decoration: none;
+}
+/* right food area end */
+/* footer area start */
+.footer-area{
+    height: 320px;
+    background: #000;
+}
+.about h4{
+    font-size: 21px;
+    color: #fff;
+    font-family: 'Yeseva One', cursive; 
+}
+.about img{
+    margin: 20px 0;
+}
+.about p {
+	font-weight: 700;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 24px;
+	margin-bottom: 52px;
+}
+.social-icon a {
+	color: #fff;
+	font-size: 17px;
+	margin: 0 4px;
+}
+/* footer area end */
